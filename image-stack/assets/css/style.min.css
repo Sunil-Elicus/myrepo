@@ -1,0 +1,248 @@
+.elementor-widget-wpmozo_ae_image_stack .wpmozo-image-hotspot-wrapper {
+    position: relative;
+    width: 100%
+}
+
+.elementor-widget-wpmozo_ae_image_stack .wpmozo-image-hotspot-single-item {
+    /*position: absolute;*/
+    cursor: pointer;
+    display: inline-block;
+    justify-content: center;
+    align-items: center
+}
+
+.elementor-widget-wpmozo_ae_image_stack .wpmozo-image-hotspot-single-item .wpmozo-marker-wrapper {
+    padding: 10px;
+}
+
+.elementor-widget-wpmozo_ae_image_stack .tooltip-content {
+    display: none;
+    max-width: 300px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px
+}
+
+.elementor-widget-wpmozo_ae_image_stack .wpmozo-image-hotspot-tooltip-content {
+    display: none
+}
+
+.elementor-widget-wpmozo_ae_image_stack .wpmozo-image-hotspot-wrapper.pulse-start .wpmozo-image-hotspot-single-item:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    border-radius: inherit;
+    opacity: 1;
+    transform: scale(1);
+    animation: 1.5s infinite pulse-aninmation;
+    content: ''
+}
+
+@keyframes pulse-aninmation {
+    0% {
+        transform: scale(1);
+        opacity: 1
+    }
+
+    100% {
+        transform: scale(1.5);
+        opacity: 0
+    }
+}
+
+.elementor-widget-wpmozo_ae_image_stack .wpmozo-image-hotspot-wrapper>img {
+    width: 100%
+}
+
+.tippy-box[ data-animation=perspective-extreme][ data-placement^=top],
+.tippy-box[ data-animation=perspective-subtle][ data-placement^=top],
+.tippy-box[ data-animation=perspective][ data-placement^=top],
+.tippy-box[ data-animation=scale-subtle][ data-placement^=top],
+.tippy-box[ data-animation=scale][ data-placement^=top] {
+    transform-origin: bottom
+}
+
+.tippy-box[ data-animation=perspective-extreme][ data-placement^=bottom][ data-state=visible],
+.tippy-box[ data-animation=perspective-extreme][ data-placement^=left][ data-state=visible],
+.tippy-box[ data-animation=perspective-extreme][ data-placement^=right][ data-state=visible],
+.tippy-box[ data-animation=perspective-extreme][ data-placement^=top][ data-state=visible],
+.tippy-box[ data-animation=perspective-subtle][ data-placement^=bottom][ data-state=visible],
+.tippy-box[ data-animation=perspective-subtle][ data-placement^=left][ data-state=visible],
+.tippy-box[ data-animation=perspective-subtle][ data-placement^=right][ data-state=visible],
+.tippy-box[ data-animation=perspective-subtle][ data-placement^=top][ data-state=visible],
+.tippy-box[ data-animation=perspective][ data-placement^=bottom][ data-state=visible],
+.tippy-box[ data-animation=perspective][ data-placement^=left][ data-state=visible],
+.tippy-box[ data-animation=perspective][ data-placement^=right][ data-state=visible],
+.tippy-box[ data-animation=perspective][ data-placement^=top][ data-state=visible] {
+    transform: perspective(700px)
+}
+
+.tippy-box[ data-animation=perspective-extreme][ data-placement^=top][ data-state=hidden] {
+    transform: perspective(700px) translateY(10px) rotateX(90deg)
+}
+
+.tippy-box[ data-animation=perspective-extreme][ data-placement^=bottom],
+.tippy-box[ data-animation=perspective-subtle][ data-placement^=bottom],
+.tippy-box[ data-animation=perspective][ data-placement^=bottom],
+.tippy-box[ data-animation=scale-subtle][ data-placement^=bottom],
+.tippy-box[ data-animation=scale][ data-placement^=bottom] {
+    transform-origin: top
+}
+
+.tippy-box[ data-animation=perspective-extreme][ data-placement^=bottom][ data-state=hidden] {
+    transform: perspective(700px) translateY(-10px) rotateX(-90deg)
+}
+
+.tippy-box[ data-animation=perspective-extreme][ data-placement^=left],
+.tippy-box[ data-animation=perspective-subtle][ data-placement^=left],
+.tippy-box[ data-animation=perspective][ data-placement^=left],
+.tippy-box[ data-animation=scale-subtle][ data-placement^=left],
+.tippy-box[ data-animation=scale][ data-placement^=left] {
+    transform-origin: right
+}
+
+.tippy-box[ data-animation=perspective-extreme][ data-placement^=left][ data-state=hidden] {
+    transform: perspective(700px) translateX(10px) rotateY(-90deg)
+}
+
+.tippy-box[ data-animation=perspective-extreme][ data-placement^=right],
+.tippy-box[ data-animation=perspective-subtle][ data-placement^=right],
+.tippy-box[ data-animation=perspective][ data-placement^=right],
+.tippy-box[ data-animation=scale-subtle][ data-placement^=right],
+.tippy-box[ data-animation=scale][ data-placement^=right] {
+    transform-origin: left
+}
+
+.tippy-box[ data-animation=perspective-extreme][ data-placement^=right][ data-state=hidden] {
+    transform: perspective(700px) translateX(-10px) rotateY(90deg)
+}
+
+.tippy-box[ data-animation=perspective-extreme][ data-state=hidden] {
+    opacity: .5
+}
+
+.tippy-box[ data-animation=perspective-subtle][ data-placement^=top][ data-state=hidden] {
+    transform: perspective(700px) translateY(5px) rotateX(30deg)
+}
+
+.tippy-box[ data-animation=perspective-subtle][ data-placement^=bottom][ data-state=hidden] {
+    transform: perspective(700px) translateY(-5px) rotateX(-30deg)
+}
+
+.tippy-box[ data-animation=perspective-subtle][ data-placement^=left][ data-state=hidden] {
+    transform: perspective(700px) translateX(5px) rotateY(-30deg)
+}
+
+.tippy-box[ data-animation=perspective-subtle][ data-placement^=right][ data-state=hidden] {
+    transform: perspective(700px) translateX(-5px) rotateY(30deg)
+}
+
+.tippy-box[ data-animation=perspective-subtle][ data-state=hidden],
+.tippy-box[ data-animation=perspective][ data-state=hidden],
+.tippy-box[ data-animation=shift-away-extreme][ data-state=hidden],
+.tippy-box[ data-animation=shift-away-subtle][ data-state=hidden],
+.tippy-box[ data-animation=shift-away][ data-state=hidden],
+.tippy-box[ data-animation=shift-toward-extreme][ data-state=hidden],
+.tippy-box[ data-animation=shift-toward-subtle][ data-state=hidden],
+.tippy-box[ data-animation=shift-toward][ data-state=hidden] {
+    opacity: 0
+}
+
+.tippy-box[ data-animation=perspective][ data-placement^=top][ data-state=hidden] {
+    transform: perspective(700px) translateY(8px) rotateX(60deg)
+}
+
+.tippy-box[ data-animation=perspective][ data-placement^=bottom][ data-state=hidden] {
+    transform: perspective(700px) translateY(-8px) rotateX(-60deg)
+}
+
+.tippy-box[ data-animation=perspective][ data-placement^=left][ data-state=hidden] {
+    transform: perspective(700px) translateX(8px) rotateY(-60deg)
+}
+
+.tippy-box[ data-animation=perspective][ data-placement^=right][ data-state=hidden] {
+    transform: perspective(700px) translateX(-8px) rotateY(60deg)
+}
+
+.tippy-box[ data-animation=scale-subtle][ data-state=hidden] {
+    transform: scale(.8);
+    opacity: 0
+}
+
+.tippy-box[ data-animation=scale][ data-state=hidden] {
+    transform: scale(.5);
+    opacity: 0
+}
+
+.tippy-box[ data-animation=shift-away-extreme][ data-state=hidden][ data-placement^=top],
+.tippy-box[ data-animation=shift-toward-extreme][ data-state=hidden][ data-placement^=bottom] {
+    transform: translateY(20px)
+}
+
+.tippy-box[ data-animation=shift-away-extreme][ data-state=hidden][ data-placement^=bottom],
+.tippy-box[ data-animation=shift-toward-extreme][ data-state=hidden][ data-placement^=top] {
+    transform: translateY(-20px)
+}
+
+.tippy-box[ data-animation=shift-away-extreme][ data-state=hidden][ data-placement^=left],
+.tippy-box[ data-animation=shift-toward-extreme][ data-state=hidden][ data-placement^=right] {
+    transform: translateX(20px)
+}
+
+.tippy-box[ data-animation=shift-away-extreme][ data-state=hidden][ data-placement^=right],
+.tippy-box[ data-animation=shift-toward-extreme][ data-state=hidden][ data-placement^=left] {
+    transform: translateX(-20px)
+}
+
+.tippy-box[ data-animation=shift-away-subtle][ data-state=hidden][ data-placement^=top],
+.tippy-box[ data-animation=shift-toward-subtle][ data-state=hidden][ data-placement^=bottom][ data-state=hidden] {
+    transform: translateY(5px)
+}
+
+.tippy-box[ data-animation=shift-away-subtle][ data-state=hidden][ data-placement^=bottom],
+.tippy-box[ data-animation=shift-toward-subtle][ data-state=hidden][ data-placement^=top][ data-state=hidden] {
+    transform: translateY(-5px)
+}
+
+.tippy-box[ data-animation=shift-away-subtle][ data-state=hidden][ data-placement^=left],
+.tippy-box[ data-animation=shift-toward-subtle][ data-state=hidden][ data-placement^=right][ data-state=hidden] {
+    transform: translateX(5px)
+}
+
+.tippy-box[ data-animation=shift-away-subtle][ data-state=hidden][ data-placement^=right],
+.tippy-box[ data-animation=shift-toward-subtle][ data-state=hidden][ data-placement^=left][ data-state=hidden] {
+    transform: translateX(-5px)
+}
+
+.tippy-box[ data-animation=shift-away][ data-state=hidden][ data-placement^=top],
+.tippy-box[ data-animation=shift-toward][ data-state=hidden][ data-placement^=bottom] {
+    transform: translateY(10px)
+}
+
+.tippy-box[ data-animation=shift-away][ data-state=hidden][ data-placement^=bottom],
+.tippy-box[ data-animation=shift-toward][ data-state=hidden][ data-placement^=top] {
+    transform: translateY(-10px)
+}
+
+.tippy-box[ data-animation=shift-away][ data-state=hidden][ data-placement^=left],
+.tippy-box[ data-animation=shift-toward][ data-state=hidden][ data-placement^=right] {
+    transform: translateX(10px)
+}
+
+.tippy-box[ data-animation=shift-away][ data-state=hidden][ data-placement^=right],
+.tippy-box[ data-animation=shift-toward][ data-state=hidden][ data-placement^=left] {
+    transform: translateX(-10px)
+}
+
+.tippy-content {
+    padding: 0
+}
+
+.wpmozo-floating-container {
+    padding: 5px 9px;
+    border-radius: 4px
+}
