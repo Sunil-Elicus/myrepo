@@ -11,7 +11,7 @@
 
             window.fbAsyncInit = function () {
                 FB.init({
-                    appId: '1096774818850621', // 🔁 Replace with your Facebook App ID
+                    appId: '769602584574422', // 🔁 Replace with your Facebook App ID
                     xfbml: true,
                     version: 'v18.0'
                 });
