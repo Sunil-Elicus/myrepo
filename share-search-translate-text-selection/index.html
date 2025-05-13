@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>jQuery goshare.js Example</title>
+<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<style>
+  body { line-height: 1.7; font-family: 'Roboto Condensed'; height: 100vh; background: linear-gradient(302deg, rgba(162, 162, 162, 0.04) 0%, rgba(162, 162, 162, 0.04) 25%,rgba(156, 156, 156, 0.04) 25%, rgba(156, 156, 156, 0.04) 50%,rgba(52, 52, 52, 0.04) 50%, rgba(52, 52, 52, 0.04) 75%,rgba(75, 75, 75, 0.04) 75%, rgba(75, 75, 75, 0.04) 100%),linear-gradient(295deg, rgba(63, 63, 63, 0.04) 0%, rgba(63, 63, 63, 0.04) 25%,rgba(197, 197, 197, 0.04) 25%, rgba(197, 197, 197, 0.04) 50%,rgba(242, 242, 242, 0.04) 50%, rgba(242, 242, 242, 0.04) 75%,rgba(154, 154, 154, 0.04) 75%, rgba(154, 154, 154, 0.04) 100%),linear-gradient(253deg, rgba(73, 73, 73, 0.04) 0%, rgba(73, 73, 73, 0.04) 25%,rgba(100, 100, 100, 0.04) 25%, rgba(100, 100, 100, 0.04) 50%,rgba(240, 240, 240, 0.04) 50%, rgba(240, 240, 240, 0.04) 75%,rgba(126, 126, 126, 0.04) 75%, rgba(126, 126, 126, 0.04) 100%),linear-gradient(78deg, rgba(32, 32, 32, 0.04) 0%, rgba(32, 32, 32, 0.04) 25%,rgba(36, 36, 36, 0.04) 25%, rgba(36, 36, 36, 0.04) 50%,rgba(224, 224, 224, 0.04) 50%, rgba(224, 224, 224, 0.04) 75%,rgba(162, 162, 162, 0.04) 75%, rgba(162, 162, 162, 0.04) 100%),linear-gradient(90deg, rgb(252, 93, 34),rgb(215, 252, 30)); }
+  .container { margin: 150px auto; max-width: 640px; }
+  #demo { font-size: 1.5em; color: #fff; }
+</style>
+</head>
+
+<body><div id="jquery-script-menu">
+<div class="jquery-script-center">
+<ul>
+<li><a href="https://www.jqueryscript.net/social-media/share-search-translate-text-selection.html">Download This Plugin</a></li>
+<li><a href="https://www.jqueryscript.net/">Back To jQueryScript.Net</a></li>
+</ul><div id="carbon-block"></div>
+<div class="jquery-script-ads"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+  <div class="container">
+    <h1>jQuery goshare.js Example</h1>
+    <p id="demo">jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, jQueryScript.Net event handling, CSS animation, and Ajax. It is free, open-source software using the permissive MIT License. As of May 2019, jQuery is used by 73% of the 10 million most popular websites.</p>
+  </div>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+<script src="goshare.js"></script>
+<script>
+  $("#demo").goshare();
+</script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous"
+  src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0&appId=1096774818850621&autoLogAppEvents=1"
+  nonce="FbSdkNonce">
+</script>
+
+<script>
+try {
+  fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function(response) {
+    return true;
+  }).catch(function(e) {
+    var carbonScript = document.createElement("script");
+    carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
+    carbonScript.id = "_carbonads_js";
+    document.getElementById("carbon-block").appendChild(carbonScript);
+  });
+} catch (error) {
+  console.log(error);
+}
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</body>
+</html>
