@@ -25,7 +25,7 @@
         $('#goshare-facebook').mousedown(function () {
             var selection = getSelected();
             var fbShareUrl = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(location.href) +
-                             "&caption=" + encodeURIComponent(selection);
+                             "&quote=" + encodeURIComponent(selection);
             window.open(fbShareUrl, "", "width=600,height=400");
             HideGoShar();
             return false;
